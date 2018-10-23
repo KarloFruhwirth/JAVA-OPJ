@@ -1,0 +1,32 @@
+1	Argentina	https://www.fifa.com/worldcup/teams/team/43922/
+2	Australia	https://www.fifa.com/worldcup/teams/team/43976/
+3	Belgium	https://www.fifa.com/worldcup/teams/team/43935/
+4	Brazil	https://www.fifa.com/worldcup/teams/team/43924/
+5	Columbia	https://www.fifa.com/worldcup/teams/team/43926/
+6	Costa Rica	https://www.fifa.com/worldcup/teams/team/43901/
+7	Croatia	https://www.fifa.com/worldcup/teams/team/43938/
+8	Denmark	https://www.fifa.com/worldcup/teams/team/43941/
+9	Egypt	https://www.fifa.com/worldcup/teams/team/43855/
+10	England	https://www.fifa.com/worldcup/teams/team/43942/
+11	France	https://www.fifa.com/worldcup/teams/team/43946/
+12	Germany	https://www.fifa.com/worldcup/teams/team/43948/
+13	Iceland	https://www.fifa.com/worldcup/teams/team/43951/
+14	Iran	https://www.fifa.com/worldcup/teams/team/43817/
+15	Japan	https://www.fifa.com/worldcup/teams/team/43819/
+16	Korea Republic	https://www.fifa.com/worldcup/teams/team/43822/
+17	Mexico	https://www.fifa.com/worldcup/teams/team/43911/
+18	Morocco	https://www.fifa.com/worldcup/teams/team/43872/
+19	Nigeria	https://www.fifa.com/worldcup/teams/team/43876/
+20	Panama	https://www.fifa.com/worldcup/teams/team/43914/
+21	Peru	https://www.fifa.com/worldcup/teams/team/43929/
+22	Poland	https://www.fifa.com/worldcup/teams/team/43962/
+23	Portugal	https://www.fifa.com/worldcup/teams/team/43963/
+24	Russia	https://www.fifa.com/worldcup/teams/team/43965/
+25	Saudi Arabia	https://www.fifa.com/worldcup/teams/team/43835/
+26	Senegal	https://www.fifa.com/worldcup/teams/team/43879/
+27	Serbia	https://www.fifa.com/worldcup/teams/team/1902465/
+28	Spain	https://www.fifa.com/worldcup/teams/team/43969/
+29	Sweden	https://www.fifa.com/worldcup/teams/team/43970/
+30	Switzerland	https://www.fifa.com/worldcup/teams/team/43971/
+31	Tunisia	https://www.fifa.com/worldcup/teams/team/43888/
+32	Uruguay	https://www.fifa.com/worldcup/teams/team/43930/

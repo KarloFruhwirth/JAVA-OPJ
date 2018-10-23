@@ -1,0 +1,95 @@
+<html>
+<style>
+img {
+	max-width: 1000px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+li input {
+	background-color: #7bad86;
+	display: block;
+	color: white;
+	text-align: center;
+	border-radius: 4px;
+	padding: 16px;
+	text-decoration: none;
+}
+
+li input:hover {
+	background-color: #111111;
+}
+</style>
+<head>
+<title>Galery</title>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+<!--
+	// vidi: http://www.w3schools.com/ajax/default.asp
+	$(document).ready(function() {
+		$.ajax({
+			url : "rest/picture",    
+			type : 'get',
+			dataType : "json",
+			success : function(data) {
+				var html = "";
+				$.each(data, function(key, value) {
+					html += "<li><input type='button' value="+value+" onclick=get(this.value);></li>"
+				});
+				$("#tags").html(html);
+			}
+		});
+	});
+
+	function get(value) {
+		$.ajax({
+			url : "rest/picture/"+value,
+			type : 'get',
+			dataType : "json",
+			success : function(data) {
+				var html = "";
+				$.each(data, function(key, value) {
+					html += "<li><img src='servlets/small?id=small-"+value+"' id="+value+" onclick=info(this.id);></li>"
+				});
+				$("#thumbnails").html(html);
+				$("#details").html("");
+			}
+		});
+	}
+	
+	function info(name) {
+		$.ajax({
+			url : "rest/picture/details/"+name,
+			type : 'get',
+			dataType : "json",
+			success : function(data) {
+				var html = "";
+					html += "<h4>"+data[0]+"</h4>"
+					html += "<h4>"+data[1]+"</h4>"
+					html += "<h4>"+data[2]+"</h4>"
+					html += "<img src='servlets/full?id="+name+"' id=original"+name+">"
+				$("#details").html(html);
+			}
+		});
+	}
+//-->
+</script>
+</head>
+<body bgcolor="#f2e76d">
+	<h1>Welcome to this picture galery</h1>
+	<br>
+	<ul id="tags"></ul>
+	<br>
+	<ul id="thumbnails"></ul>
+	<div id="details"></div>
+</body>
+</html>

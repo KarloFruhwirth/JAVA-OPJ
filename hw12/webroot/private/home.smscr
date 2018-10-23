@@ -1,0 +1,37 @@
+{$= "text/html" @setMimeType $}
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Workers and scripts</title>
+ </head>
+ <body bgcolor="{$= "background" "#7F7F7F" @tparamGet $}">
+  <h1>Scripts and workers</h1>
+   <p>
+      The following list contains links to the smartscripts or workers and shows their functionality
+    </p>
+ <ul>
+     <li>osnovni.smscr	<a href="/scripts/osnovni.smscr" target="_blank">LINK</a></li>
+     <li>brojPoziva.smscr	<a href="/scripts/brojPoziva.smscr" target="_blank">LINK</a></li>
+     <li>fibonaccih.smscr	<a href="/scripts/fibonaccih.smscr" target="_blank">LINK</a></li>
+     <li>HelloWorker	<a href="/hello" target="_blank">LINK</a></li>
+     <li>CircleWorker	<a href="/cw" target="_blank">LINK</a></li>
+ </ul>
+ <br>
+ <form action="/calc" method="get">
+  a: <input type="text" name="a"><br>
+  b: <input type="text" name="b"><br>
+  <input type="submit" value="Calculate">
+  </form>
+  <br>
+  <form action="/setbgcolor" method="get">
+  <select name="bgcolor">
+   <option  value="FF0000">Red</option>
+   <option  value="0000FF">Blue</option>
+   <option  value="008000">Green</option>
+   <option  value="FFC0CB">Pink</option>
+   <option  value="FFFF00">Yellow</option>
+   <input type="submit" value="Change color">
+  </select>
+  </form>
+ </body>
+</html>

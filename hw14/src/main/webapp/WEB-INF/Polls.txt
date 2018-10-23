@@ -1,0 +1,4 @@
+Vote for your favourite band	Which one of the following bands is your favourite? Click on the link to vote !	BANDS
+Kia Rookie of the Year	Cast your votes for the ROY here!	ROY
+Kia Race to the MVP Ladder	Cast your votes for the MVP here!	MVP
+Predict the winner of the 2018 World cup	Pick your favourite!	WC1
